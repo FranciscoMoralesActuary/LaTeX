@@ -1,0 +1,168 @@
+%correo: actdavidnolas@gmail.com
+%Asunto: Practica 1 Morales Ramirez Angel Francisco
+\documentclass[12pt, a4paper]{report}
+%Idioma español
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%Colores en los textos
+\usepackage[usenames]{color}
+\usepackage{xcolor}
+%Margenes
+\usepackage[top = 2cm, left = 2cm, right = 2cm, bottom = 2cm]{geometry}
+%Hiperlinks
+\usepackage[breaklinks=true]{hyperref}
+%Imagenes
+\usepackage{graphicx}
+
+\title{\textbf{ \textit{ Practica 1 en \LaTeX \\Tema: Rick y Morty}}}
+\author{\textbf{ \textit{ Hecho por Morales Ramírez Ángel Francisco }}}
+\date{24 de Agosto del 2021}
+
+\begin{document}
+\maketitle
+%Indice
+\tableofcontents
+\chapter{Sinopsis}
+
+\underline{Rick Sánchez es la definición exacta de "científico loco".} Es alcohólico, es un genio, es irresponsable y está loco. Rick acaba de mudarse a casa de su hija Beth y allí recuerda que tiene un nieto llamado Morty. \textcolor{red}{Sin preguntar a nadie, decide que va a obligarle a que le acompañe a todo tipo de aventuras para que el chico se vuelva inteligente como él y no se convierta en un idiota como Jerry, padre de Morty y yerno de Rick.}
+
+\textcolor{blue}{Así, Rick y Morty comienzan a vivir aventuras intergalácticas a pesar de que la familia no quiere que lo sigan haciendo.} Poco a poco tienen que intentar encontrar un equilibrio entre su vida familiar y sus viajes a través del espacio y por distintas realidades paralelas, algo que no es fácil para el pequeño Morty que es incapaz de tener una vida normal al margen de su abuelo.
+
+\textcolor{brown}{Justin Roiland (Hora de aventuras) es el encargado de dar voz a los dos personajes principales: Rick y Morty. Sarah Chalke (Scrubs) interpreta a Beth Smith, Chris Parnell (Archer) es Jerry y Spencer Grammer (Greek) es Summer Smith, la hermana mayor de Morty.} En España, el reparto de doblaje está compuesto por Txema Moscoso, Rodri Martín, Héctor Indriago, Susana Damas y Sara Iglesias.
+
+\underline{Rick y Morty es una animación} de ciencia ficción para adultos creada, producida y escrita por Justin Roiland (Hora de aventuras) y Dan Harmon (Community, Monster House) para Adult Swim. Justin Roiland's Solo Vanity Card Productions, Harmonious Claptrap y Williams Street son las empresas productoras junto a Starburns Industries (del año 2013 al 2014) y Rick and Morty, LLC. (de 2015 hasta el presente).
+
+
+\chapter{Personajes}
+\begin{itemize}
+    \item \fcolorbox{black}{white}{Rick Sánchez}: Es un viejo científico que acostumbra a hablar de manera vulgar y entre eructos, y la mayoría de las veces tiene un rastro de saliva en la boca. Es padre de Beth Sánchez y es el abuelo materno de Summer y Morty. Es un hombre que ha pasado gran parte de su vida viajando a través de diversas galaxias. Para él, la Tierra se llama Planeta Tierra del Universo C-137.
+    \item \fcolorbox{red}{yellow} {Morty Smith:} Es un chico de 14 años, nieto de Rick, quien lo usa frecuentemente en sus aventuras. Posee una inteligencia pobre, es de estatura baja para su edad y está enamorado de una compañera de escuela llamada Jessica.  
+    \item \fcolorbox{brown}{orange} {Summer Smith}: Es la hermana mayor de Morty, de 17 años, una típica adolescente que suele ser superficial y obsesionada con mejorar su imagen frente a sus amigos. Es en general parecida a su madre y generalmente se la muestra como una chica lista y con sentido del humor, pero también muestras rastros de su padre como la búsqueda de aprobación
+    \item \fcolorbox{blue}{gray}{Beth Smith:} Es la hija de Rick y a la vez madre de Morty y Summer. Al igual que su padre, bebe mucho, pero a diferencia de él, es muy seria ante las situaciones y a la vez es muy despreocupada en ocasiones. Trabaja en un hospital equino como cirujana especializada en caballos, pero muchas veces se reprocha no haber sido médico.
+    \item \fcolorbox{black}{pink}{Jerry Smith:} Es el padre de Morty y de Summer. Es una persona bastante patética; Rick lo odia por haberle quitado a su hija, es un mal padre de familia, es inseguro de sí mismo y tiene problemas en su matrimonio con Beth
+\end{itemize} 
+
+
+\chapter{Reparto}
+\begin{itemize}
+\centering
+    \item \colorbox{yellow} {Rick Sánchez (interpretado por Justin Roiland)}
+    \begin{figure}[hb]
+    \centering
+    \includegraphics[width = 8cm, height=6cm]{rick.jpg}
+\end{figure}
+    
+    \item \colorbox{green} {Morty Smith (interpretado por Justin Roiland)} 
+    \begin{figure}[hb]
+    \centering
+    \includegraphics[width = 8cm, height=6cm]{morty.jpg}
+\end{figure}
+    
+    \newpage
+    \item \colorbox{pink} {Summer Smith (interpretada por Spencer Grammer)}
+    \begin{figure}[hb]
+    \centering
+    \includegraphics[width = 8cm, height=6cm]{summer.jpg}
+\end{figure}
+
+    \item \colorbox{orange} {Beth Smith (interpretada por Sarah Chalke)}
+    \begin{figure}[hb]
+    \centering
+    \includegraphics[width = 8cm, height=6cm]{beth.png}
+\end{figure}
+    
+    \item \colorbox{yellow} {Jerry Smith (interpretado por Chris Parnell)}
+    \begin{figure}[hb]
+    \centering
+    \includegraphics[width = 8cm, height=6cm]{Jerry.png}
+\end{figure}
+
+\end{itemize} 
+
+\chapter{Episodios}
+\section{Temporada 1}
+\begin{itemize}
+    \item 1 Piloto
+    \item 2 El perro cortacésped
+    \item 3 Parque de anatomía
+    \item 4 Los alienígenas de los giros inesperados
+    \item 5 Meeseeks y destruir
+    \item 6 Poción
+    \item 7 Educando a Gazórpazorp
+    \item 8 Sesenta Rick-nutos
+    \item 9 Cosas necesarias
+    \item 10 Encuent-Ricks en la Rick-cera fase
+    \item 11 Ricksy Business
+\end{itemize} 
+\section{Temporada 2}
+\begin{itemize}
+    \item 1 Una RickGrieta en el tiempo
+    \item 2 Mortyhuida a medianoche
+    \item 3 Asimilación autoerótica
+    \item 4 Desafio Rickal
+    \item 5 Estamos cerdis
+    \item 6 Los Ricks deben estar locos
+    \item 7 Golpe en el pequeño Sánchez
+    \item 8 Cable interdimensional 2 tentando al destino
+    \item 9 Mira quien purga ahora
+    \item 10 De squanch en squkanch
+\end{itemize} 
+\section{Temporada 3}
+\begin{itemize}
+    \item 1 La Redención de Rick
+    \item 2 Rickusando la Piedra
+    \item 3 Pepinillo Rick
+    \item 4 Los Vindicadores: El Regreso de Destructor de Mundos
+    \item 5 La Conspiración Whirly Dirly
+    \item 6 Descanso y Ricklajación
+    \item 7 Cuentos de la Ciudadela
+    \item 8 Los Recuerdos de Morty
+    \item 9 ABC de Beth
+    \item 10 Día de Rick y Morty
+\end{itemize} 
+\section{Temporada 4}
+\begin{itemize}
+    \item 1 Aprovechando el Mortymento: Vive, Muere, Rickpeat
+    \item 2 El Anciano y el Trono
+    \item 3 Una Pandilla para el Patético Morty
+    \item 4 La Ley y el Dragorden
+    \item 5 Rattlestar Rickláctica
+    \item 6 Un Tren de Antologías
+    \item 7 Alienígenas
+    \item 8 El Episodio del Tanque de Ácido
+    \item 9 Childrick of Morta
+    \item 10 El Rickgreso del Jerri
+\end{itemize} 
+\newpage
+\section{Temporada 5}
+\begin{itemize}
+    \item 1 Mi Cena con André a la Morty 
+    \item 2 Mortyplicidad
+    \item 3 Una Mortyandad Conveniente
+    \item 4 Día de la Rickdependencia
+    \item 5 Grickfitti Amortycano
+    \item 6 El Increíble Día de Explota Acción de Gracias
+    \item 7 Gotron, Jerrys y Rickvangelion
+    \item 8 Eterna Amistad de una Mente sin Rickcuerdos
+    \item 9 Forgetting Sarick Mortshall
+    \item 10 Rickmurai Jack
+    
+\end{itemize} 
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width = 12cm, height=8cm]{rick-and-morty.jpg}
+\end{figure}
+
+\chapter{Creadores}
+\textcolor{red} {Rick y Morty (en inglés: Rick and Morty) es una serie de televisión estadounidense de animación para adultos creada por Justin Roiland y Dan Harmon en 2013 para Adult Swim.}
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width = 12cm, height=8cm]{3665-780x468.jpg}
+\end{figure}
+
+\footnote{{Wikimedia Commons alberga una categoría multimedia sobre Rick y Morty.} \textcolor{blue}{\url{https://es.wikipedia.org/wiki/Rick_y_Morty}}}
+
+
+\end{document}

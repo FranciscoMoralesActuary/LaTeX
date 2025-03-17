@@ -1,0 +1,39 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+
+\title{Tablas}
+\author{Morales Ramirez Angel Francisco }
+\date{07 de Septiembre del2021}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\chapter{Tabla 1}
+\begin{tabular}{|c|c|}
+\hline
+\multicolumn{2}{|c|}{Sabor favorito} \\ \hline
+    Sabor & Preferencia  \\ \hline
+    Piña & 7  \\ \hline
+    Durazno & 3 \\ \hline
+    Manzana & 6 \\ \hline
+    Naranja & 10 \\ \hline
+    Damasco & 4 \\ \hline
+    Franbuesa & 7 \\ \hline
+    
+    \end{tabular}    
+    \newpage
+    \vspace{1cm}
+ \chapter{Tabla 2}
+    \begin{tabular}{|c|c|c|c|c|}
+\hline
+     \textbf{ID} & \textbf{Nombre}& \textbf{Apellido } & \textbf{Salario}  & \textbf{Departamento} \\ \hline
+    523540 & Brenda & Esparza & \$62,402.00 & Marketing \\ \hline
+    523541 & Carolina & Diaz & \$85,254.00 & Finanzas \\ \hline
+    523542 & Jose & Barrones  & \$58,223.00 & Produccion \\ \hline
+    523543 &  Laura & Mendoza & \$46,423.00 & Finanzas \\ \hline
+    523544 & Mauricio & Torrado & \$68,532.00 &  Informatica \\ \hline
+
+\end{tabular}
+\end{document}

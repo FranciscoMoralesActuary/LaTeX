@@ -1,0 +1,49 @@
+%Portada Morales Ramirez Angel Francisco
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage[top=2 cm, bottom=2cm, left= 2 cm, right= 2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\pagecolor{yellow}
+%\title{Portada}
+%\author{422093653 }
+%\date{September 2021}
+
+\begin{document}
+%\maketitle
+\begin{titlepage}
+    \begin{center}
+        {\fontsize{16}{1} \selectfont \textbf{UNIVERSIDAD AUTÓNOMA NACIONAL DE MÉXICO}}
+        \vspace{0.5cm}
+        
+         {\fontsize{14}{1} \selectfont FACULTAD DE CIENCIAS}
+       \vspace{0.5cm}
+       \begin{figure}[hb]
+    \centering
+    \includegraphics[width=10cm,height=8cm]{PikPng.com_tigres-logo-png_5193929.png}
+\end{figure}
+
+\rule{17cm}{.1cm}
+    {\fontsize{14}{1} \selectfont C A L C U L O   D I F E R E N C I A L}
+\rule{17cm}{.1cm}
+
+  \vspace{0.5cm}
+Por: 
+
+\textbf{Morales Ramirez Ángel Francisco}
+  \vspace{0.5cm}
+  
+Profesor: 
+
+ \textbf{Joaquín David}
+  \vspace{0.5cm}
+
+Correo: 422093653@pcpuma.acatlan.unam.mx
+  \vspace{0.5cm}
+\includegraphics[width=1cm]{kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb69f99c4.9538101315214959906537.jpg}
+    
+    \end{center}
+\end{titlepage}
+\end{document}

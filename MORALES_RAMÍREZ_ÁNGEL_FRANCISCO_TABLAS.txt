@@ -1,0 +1,43 @@
+%MORALES_RAMÍREZ_ÁNGEL_FRANCISCO_TABLAS
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\title{Tablas}
+\usepackage[table]{xcolor}
+\usepackage[top=2cm, bottom=2cm,left=2cm, right=2cm]{geometry}
+\author{Morales Ramirez Ángel Francisco }
+\date{08 Septiembre 2021}
+\usepackage[breaklinks=true]{hyperref} 
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\chapter{Tabla No. 1}
+    \begin{center}
+    \begin{tabular}{|c|c|}
+    \hline
+        Color preferido & Número de niños  \\ \hline
+        Azul    & 9 \\ \hline
+        Amarillo & 4 \\ \hline
+        Rojo & 5 \\ \hline
+        Verde & 1 \\ \hline
+        Negro & 2 \\ \hline
+        Total & 21  \\ \hline
+    \end{tabular}
+    \end{center}
+\chapter{Tabla No. 2}
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+     \multicolumn{4}{|c|}{Mis frutitas} \\ \hline
+     Fruta & Cantidad & Precio por c/u & Total precio  \\ \hline
+     Manzana & 3  & \$ 5.00 & \$ 15.00  \\ \hline
+     Pera & 4 & \$ 6.00 & \$ 24.00  \\ \hline
+     Mandarina & 2  & \$ 4.00 & \$ 8.00  \\ \hline
+
+     Naranja & 6  & \$ 3.00 & \$ 18.00  \\ \hline
+     Mango & 10  & \$ 8.00 & \$ 80.00  \\ \hline
+    \end{tabular}
+    \end{center}
+    
+\end{document}

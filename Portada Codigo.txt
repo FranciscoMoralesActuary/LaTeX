@@ -1,0 +1,88 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[top = 2.5cm, bottom = 2.5cm, left = 2.5cm, right = 2.5cm]{geometry}
+\usepackage[breaklinks = true]{hyperref}
+
+%\tiny
+%\scriptsize
+%\footnotesize
+%\small
+%\normalsize
+%\large
+%\Large
+%\LARGE
+%\huge
+%\Huge
+
+\begin{document}
+
+
+
+\begin{titlepage}
+\begin{center}
+{\fontsize{17}{1} \bf \selectfont UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}     
+
+
+\vspace{.3cm}
+
+
+{\fontsize{12}{1} \bf \selectfont FACULTAD DE ESTUDIOS SUPERIORES ACATLÁN  }   
+
+
+ACTUARÍA
+
+\vspace{.8cm}
+
+
+\includegraphics[width=10cm]{LOGO-UNAM.png}
+
+
+\vspace{.5cm}
+
+\begin{large}
+
+
+\rule{135mm}{0.3mm}
+\vspace{.25cm}
+
+P R O C E S O S  \hspace{.2cm}    E S T O C Á S T I C O S 
+
+\rule{135mm}{0.3mm}
+
+\end{large}
+    
+\vspace{1cm}
+
+\textbf{Por:}  
+
+\vspace{.3cm}
+
+\textit{ Nolasco Joaquín David }
+    
+\vspace{1cm}
+
+\textbf{Profesor:} 
+
+\vspace{.3cm}
+
+\textit{ Mahil Maldonado }
+
+\end{center}
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Tablitas}
+\vspace{1cm}
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Id             & Nombre         &  Materias & Semestre \\ \hline
+3151489759     & David Nolasco  &   6       & 6to\\ \hline
+3151481739     & Ramiro Mendez  &   5       & 1ro \\ \hline
+\end{tabular}
+
+\end{document}
